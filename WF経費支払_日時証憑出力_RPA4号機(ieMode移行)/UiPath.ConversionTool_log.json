@@ -1,0 +1,1179 @@
+{
+  "GlobalStatistics": {
+    "BrowserTypeChangeCount": 8,
+    "SelectorChangesCount": 91,
+    "KillProcessCount": 0,
+    "VariableDefaultCount": 0,
+    "ActivityTypes": {
+      "ui:OnUiElementAppear": 9,
+      "ui:SendHotkey": 7,
+      "ui:Click": 45,
+      "ui:UiElementExists": 17,
+      "ui:BrowserScope": 12,
+      "ui:OpenBrowser": 2,
+      "ui:GetValue": 3,
+      "ui:TypeInto": 2,
+      "ui:WaitUiElementAppear": 2
+    }
+  },
+  "FileChanges": [
+    {
+      "FilePath": "経費支払申請の印刷_エラー回避_4号機.xaml",
+      "Statistics": {
+        "BrowserTypeChangeCount": 8,
+        "SelectorChangesCount": 91,
+        "KillProcessCount": 0,
+        "VariableDefaultCount": 0,
+        "ActivityTypes": {
+          "ui:OnUiElementAppear": 9,
+          "ui:SendHotkey": 7,
+          "ui:Click": 45,
+          "ui:UiElementExists": 17,
+          "ui:BrowserScope": 12,
+          "ui:OpenBrowser": 2,
+          "ui:GetValue": 3,
+          "ui:TypeInto": 2,
+          "ui:WaitUiElementAppear": 2
+        }
+      },
+      "Changes": [
+        {
+          "Type": 0,
+          "ActivityType": "ui:OnUiElementAppear",
+          "DisplayName": "新規申請メニューが開くまで待つ",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='新規申請メニュー' /><webctrl aaname='購買 TO DO' tag='TABLE' /><webctrl tag='TH' />",
+          "Value": "<html htmlwindowname='dragls' title='新規申請メニュー' app='msedge.exe' /><webctrl aaname='購買 TO DO' tag='TABLE' /><webctrl tag='TH' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:OnUiElementAppear",
+          "DisplayName": "On Element Appear 'IMG '",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl name='UsrId' tag='INPUT' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl name='UsrId' tag='INPUT' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "User IDの入力⇒ RPAReal",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl name='UsrId' tag='INPUT' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl name='UsrId' tag='INPUT' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Passwordの入力",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl name='PWord' tag='INPUT' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl name='PWord' tag='INPUT' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click ENTER②",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl name='Image1' tag='IMG' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl name='Image1' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "ログインエラーを検知する",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl tag='FONT' aaname='認証できません。正しいログイン情報を入力してください。' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl tag='FONT' aaname='認証できません。正しいログイン情報を入力してください。' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "[部門選択]を検知する",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='部門選択' /><webctrl tag='H1' />",
+          "Value": "<html htmlwindowname='dragls' title='部門選択' app='msedge.exe' /><webctrl tag='H1' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Attach Browser '     Page'",
+          "PropertyName": "Selector",
+          "Original": "<html htmlwindowname='dragls' title='部門選択' />",
+          "Value": "<html htmlwindowname='dragls' title='部門選択' app='msedge.exe' />"
+        },
+        {
+          "Type": 1,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Attach Browser '     Page'",
+          "PropertyName": "BrowserType",
+          "Original": "IE",
+          "Value": "Edge"
+        },
+        {
+          "Type": 1,
+          "ActivityType": "ui:OpenBrowser",
+          "DisplayName": "Open Browser(IE)",
+          "PropertyName": "BrowserType",
+          "Original": "IE",
+          "Value": "Edge"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Attach Browser '         Page'",
+          "PropertyName": "Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払受付一覧' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払受付一覧' app='msedge.exe' />"
+        },
+        {
+          "Type": 1,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Attach Browser '         Page'",
+          "PropertyName": "BrowserType",
+          "Original": "IE",
+          "Value": "Edge"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:OnUiElementAppear",
+          "DisplayName": "検索結果が表示されるまで待つ（10分間）",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払受付一覧' /><webctrl css-selector='body&gt;table&gt;tbody&gt;tr&gt;td&gt;div&gt;form&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table' idx='2' parentname='Exp801List' tag='TABLE' /><webctrl idx='1' tag='TD' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払受付一覧' app='msedge.exe' /><webctrl css-selector='body&gt;table&gt;tbody&gt;tr&gt;td&gt;div&gt;form&gt;table&gt;tbody&gt;tr&gt;td&gt;table&gt;tbody&gt;tr&gt;td&gt;table' idx='2' parentname='Exp801List' tag='TABLE' /><webctrl idx='1' tag='TD' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【処理部門】タブ　クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='新規申請メニュー' /><webctrl name='transaction' tag='IMG' />",
+          "Value": "<html htmlwindowname='dragls' title='新規申請メニュー' app='msedge.exe' /><webctrl name='transaction' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【経費支払受付一覧】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='処理部門メニュー' /><webctrl aaname='経費支払受付一覧' tag='A' />",
+          "Value": "<html htmlwindowname='dragls' title='処理部門メニュー' app='msedge.exe' /><webctrl aaname='経費支払受付一覧' tag='A' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'B'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払受付一覧' /><webctrl parentname='Exp801List' tag='B' aaname='該当レコードはありません。' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払受付一覧' app='msedge.exe' /><webctrl parentname='Exp801List' tag='B' aaname='該当レコードはありません。' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:GetValue",
+          "DisplayName": "テキストを取得 'B'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払受付一覧' /><webctrl parentname='Exp801List' tag='B' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払受付一覧' app='msedge.exe' /><webctrl parentname='Exp801List' tag='B' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Attach Browser '         Page'",
+          "PropertyName": "Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払受付一覧' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払受付一覧' app='msedge.exe' />"
+        },
+        {
+          "Type": 1,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Attach Browser '         Page'",
+          "PropertyName": "BrowserType",
+          "Original": "IE",
+          "Value": "Edge"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【受付】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払受付一覧' /><webctrl name='EXP801_Update' tag='INPUT' aaname='受付' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払受付一覧' app='msedge.exe' /><webctrl name='EXP801_Update' tag='INPUT' aaname='受付' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "【一覧出力】にEnterキーを送る",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払受付一覧' /><webctrl name='EXP801_Output' tag='INPUT' aaname='一覧出力' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払受付一覧' app='msedge.exe' /><webctrl name='EXP801_Output' tag='INPUT' aaname='一覧出力' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[戻る]ボタンのクリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払受付一覧' /><webctrl name='CancelButton' tag='IMG' aaname='戻る' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払受付一覧' app='msedge.exe' /><webctrl name='CancelButton' tag='IMG' aaname='戻る' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[承認者]タブのクリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='処理部門メニュー' /><webctrl name='shounin' tag='IMG' />",
+          "Value": "<html htmlwindowname='dragls' title='処理部門メニュー' app='msedge.exe' /><webctrl name='shounin' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "[経費支払申請]の入力",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl name='FormNameList' tag='INPUT' tableRow='2' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl name='FormNameList' tag='INPUT' tableRow='2' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[検索]ボタンのクリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl name='kensaku' tag='IMG' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl name='kensaku' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【内容表示】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='承認待一覧' /><webctrl name='naiyou*' tag='IMG' tableRow='{0}' />\", RowNumber)]",
+          "Value": "[<html title='承認待一覧' app='msedge.exe' /><webctrl name='naiyou*' tag='IMG' tableRow='{{RowNumber}}' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Send Hotkey 'FORM'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl name='PCCViewForm' tag='FORM' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl name='PCCViewForm' tag='FORM' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【内容表示】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='承認待一覧' /><webctrl name='naiyou*' tag='IMG' tableRow='{0}' />\", RowNumber)]",
+          "Value": "[<html title='承認待一覧' app='msedge.exe' /><webctrl name='naiyou*' tag='IMG' tableRow='{{RowNumber}}' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:OnUiElementAppear",
+          "DisplayName": "経費支払画面の表示待ち",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払照会画面' /><webctrl tag='H1' aaname='経費支払' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl tag='H1' aaname='経費支払' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "【財務担当者本日未受付】確認",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払照会画面' /><webctrl tag='FONT' innertext='【財務担当者本日未受付】' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl tag='FONT' innertext='【財務担当者本日未受付】' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "[ダウンロード]ボタンの有無確認",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tag='INPUT' type='button' tableRow='{0}' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tag='INPUT' type='button' tableRow='{{k}}' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:GetValue",
+          "DisplayName": "添付ファイル名の取得",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html omit:htmlwindowname='dragls' title='経費支払照会画面' /><webctrl idx='3' parentname='Exp001' tag='TABLE' /><webctrl isleaf='1' tableCol='2' tableRow='{0}' tag='TD' />\", k)]",
+          "Value": "[<html omit:htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl idx='3' parentname='Exp001' tag='TABLE' /><webctrl isleaf='1' tableCol='2' tableRow='{{k}}' tag='TD' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html title='経費支払照会画面' /><webctrl tableRow='2' tag='INPUT' type='button' />",
+          "Value": "<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='2' tag='INPUT' type='button' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【台紙印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html title='経費支払照会画面' /><webctrl name='Exp001PrintEvdButton' tag='IMG' aaname='台紙印刷' />",
+          "Value": "<html title='経費支払照会画面' app='msedge.exe' /><webctrl name='Exp001PrintEvdButton' tag='IMG' aaname='台紙印刷' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "稟議書の有無確認",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='経費支払照会画面' /><webctrl parentname='Exp001' tag='A' aaname='M*' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl parentname='Exp001' tag='A' aaname='M*' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【稟議書番号】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='経費支払照会画面' /><webctrl parentname='Exp001' tag='A' aaname='M*' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl parentname='Exp001' tag='A' aaname='M*' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'INPUT  #'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='稟議書' /><webctrl aaname='印刷' tag='INPUT' type='button' />",
+          "Value": "<html htmlwindowname='dragls' title='稟議書' app='msedge.exe' /><webctrl aaname='印刷' tag='INPUT' type='button' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='稟議書' /><webctrl aaname='印刷' tag='INPUT' type='button' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='稟議書' app='msedge.exe' /><webctrl aaname='印刷' tag='INPUT' type='button' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【戻る】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='稟議書' /><webctrl name='CancelButton' tag='IMG' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='稟議書' app='msedge.exe' /><webctrl name='CancelButton' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:WaitUiElementAppear",
+          "DisplayName": "Find Element 'H1'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払照会画面' /><webctrl tag='INPUT' type='button' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl tag='INPUT' type='button' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【台紙印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html title='経費支払照会画面' /><webctrl name='Exp001PrintEvdButton' tag='IMG' aaname='台紙印刷' />",
+          "Value": "<html title='経費支払照会画面' app='msedge.exe' /><webctrl name='Exp001PrintEvdButton' tag='IMG' aaname='台紙印刷' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【台紙印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html idx='1' /><webctrl name='CancelButton' tag='IMG' aaname='戻る' />",
+          "Value": "<html idx='1' app='msedge.exe' /><webctrl name='CancelButton' tag='IMG' aaname='戻る' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'IMG '",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl aaname='承認待一覧' omit:href='http://td-wf-sv01:9080/dragls/images/title/listTo/syonin_tit.gif' tag='IMG' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl aaname='承認待一覧' omit:href='http://td-wf-sv01:9080/dragls/images/title/listTo/syonin_tit.gif' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:OnUiElementAppear",
+          "DisplayName": "経費支払画面の表示待ち",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='承認待一覧' /><webctrl aaname='承認待一覧' href='*' tag='IMG' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl aaname='承認待一覧' href='*' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "[▶次へ]の確認",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl parentname='PCCViewForm' tag='IMG' aaname='次へ' idx='1' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl parentname='PCCViewForm' tag='IMG' aaname='次へ' idx='1' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[▶次へ]をクリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl parentname='PCCViewForm' tag='IMG' aaname='次へ' idx='1' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl parentname='PCCViewForm' tag='IMG' aaname='次へ' idx='1' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "ブラウザーにアタッチ '      Page'",
+          "PropertyName": "Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' />"
+        },
+        {
+          "Type": 1,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "ブラウザーにアタッチ '      Page'",
+          "PropertyName": "BrowserType",
+          "Original": "IE",
+          "Value": "Edge"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:OnUiElementAppear",
+          "DisplayName": "新規申請メニューが開くまで待つ",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='新規申請メニュー' /><webctrl aaname='購買 TO DO' tag='TABLE' /><webctrl tag='TH' />",
+          "Value": "<html htmlwindowname='dragls' title='新規申請メニュー' app='msedge.exe' /><webctrl aaname='購買 TO DO' tag='TABLE' /><webctrl tag='TH' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:OnUiElementAppear",
+          "DisplayName": "On Element Appear 'IMG '",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl name='UsrId' tag='INPUT' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl name='UsrId' tag='INPUT' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "User IDの入力⇒ RPAReal",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl name='UsrId' tag='INPUT' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl name='UsrId' tag='INPUT' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Passwordの入力",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl name='PWord' tag='INPUT' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl name='PWord' tag='INPUT' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click ENTER②",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl name='Image1' tag='IMG' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl name='Image1' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "ログインエラーを検知する",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='ログイン' /><webctrl tag='FONT' aaname='認証できません。正しいログイン情報を入力してください。' />",
+          "Value": "<html htmlwindowname='dragls' title='ログイン' app='msedge.exe' /><webctrl tag='FONT' aaname='認証できません。正しいログイン情報を入力してください。' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "[部門選択]を検知する",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='部門選択' /><webctrl tag='H1' />",
+          "Value": "<html htmlwindowname='dragls' title='部門選択' app='msedge.exe' /><webctrl tag='H1' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Attach Browser '     Page'",
+          "PropertyName": "Selector",
+          "Original": "<html htmlwindowname='dragls' title='部門選択' />",
+          "Value": "<html htmlwindowname='dragls' title='部門選択' app='msedge.exe' />"
+        },
+        {
+          "Type": 1,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Attach Browser '     Page'",
+          "PropertyName": "BrowserType",
+          "Original": "IE",
+          "Value": "Edge"
+        },
+        {
+          "Type": 1,
+          "ActivityType": "ui:OpenBrowser",
+          "DisplayName": "Open Browser(IE)",
+          "PropertyName": "BrowserType",
+          "Original": "IE",
+          "Value": "Edge"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[承認者]タブのクリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='新規申請メニュー' /><webctrl name='shounin' tag='IMG' />",
+          "Value": "<html htmlwindowname='dragls' title='新規申請メニュー' app='msedge.exe' /><webctrl name='shounin' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "[経費支払申請]の入力",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl name='FormNameList' tag='INPUT' tableRow='2' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl name='FormNameList' tag='INPUT' tableRow='2' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[検索]ボタンのクリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl name='kensaku' tag='IMG' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl name='kensaku' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "ブラウザーにアタッチ '      Page'",
+          "PropertyName": "Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' />"
+        },
+        {
+          "Type": 1,
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "ブラウザーにアタッチ '      Page'",
+          "PropertyName": "BrowserType",
+          "Original": "IE",
+          "Value": "Edge"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click 'IMG  http://td-wf-sv01/...'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl parentname='PCCViewForm' tag='IMG' alt='次へ' idx='1' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl parentname='PCCViewForm' tag='IMG' alt='次へ' idx='1' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【内容表示】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='承認待一覧' /><webctrl name='naiyou*' tag='IMG' tableRow='{0}' />\", RowNumber)]",
+          "Value": "[<html title='承認待一覧' app='msedge.exe' /><webctrl name='naiyou*' tag='IMG' tableRow='{{RowNumber}}' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Send Hotkey 'FORM'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl name='PCCViewForm' tag='FORM' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl name='PCCViewForm' tag='FORM' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【内容表示】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='承認待一覧' /><webctrl name='naiyou*' tag='IMG' tableRow='{0}' />\", RowNumber)]",
+          "Value": "[<html title='承認待一覧' app='msedge.exe' /><webctrl name='naiyou*' tag='IMG' tableRow='{{RowNumber}}' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:OnUiElementAppear",
+          "DisplayName": "経費支払画面の表示待ち",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払照会画面' /><webctrl tag='H1' aaname='経費支払' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl tag='H1' aaname='経費支払' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "【財務担当者本日未受付】確認",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払照会画面' /><webctrl tag='FONT' innertext='【財務担当者本日未受付】' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl tag='FONT' innertext='【財務担当者本日未受付】' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "[ダウンロード]ボタンの有無確認",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tag='INPUT' type='button' tableRow='{0}' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tag='INPUT' type='button' tableRow='{{k}}' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:GetValue",
+          "DisplayName": "添付ファイル名の取得",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html omit:htmlwindowname='dragls' title='経費支払照会画面' /><webctrl idx='3' parentname='Exp001' tag='TABLE' /><webctrl isleaf='1' tableCol='2' tableRow='{0}' tag='TD' />\", k)]",
+          "Value": "[<html omit:htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl idx='3' parentname='Exp001' tag='TABLE' /><webctrl isleaf='1' tableCol='2' tableRow='{{k}}' tag='TD' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "[String.Format(\"<html title='経費支払照会画面' /><webctrl tableRow='{0}' tag='INPUT' type='button' />\", k)]",
+          "Value": "[<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='{{k}}' tag='INPUT' type='button' />]"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ダウンロード]クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html title='経費支払照会画面' /><webctrl tableRow='2' tag='INPUT' type='button' />",
+          "Value": "<html title='経費支払照会画面' app='msedge.exe' /><webctrl tableRow='2' tag='INPUT' type='button' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【台紙印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html title='経費支払照会画面' /><webctrl name='Exp001PrintEvdButton' tag='IMG' aaname='台紙印刷' />",
+          "Value": "<html title='経費支払照会画面' app='msedge.exe' /><webctrl name='Exp001PrintEvdButton' tag='IMG' aaname='台紙印刷' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "稟議書の有無確認",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='経費支払照会画面' /><webctrl parentname='Exp001' tag='A' aaname='M*' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl parentname='Exp001' tag='A' aaname='M*' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【稟議書番号】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='経費支払照会画面' /><webctrl parentname='Exp001' tag='A' aaname='M*' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl parentname='Exp001' tag='A' aaname='M*' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'INPUT  #'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='稟議書' /><webctrl aaname='印刷' tag='INPUT' type='button' />",
+          "Value": "<html htmlwindowname='dragls' title='稟議書' app='msedge.exe' /><webctrl aaname='印刷' tag='INPUT' type='button' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='稟議書' /><webctrl aaname='印刷' tag='INPUT' type='button' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='稟議書' app='msedge.exe' /><webctrl aaname='印刷' tag='INPUT' type='button' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【戻る】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='稟議書' /><webctrl name='CancelButton' tag='IMG' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='稟議書' app='msedge.exe' /><webctrl name='CancelButton' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:WaitUiElementAppear",
+          "DisplayName": "Find Element 'H1'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='経費支払照会画面' /><webctrl tag='INPUT' type='button' />",
+          "Value": "<html htmlwindowname='dragls' title='経費支払照会画面' app='msedge.exe' /><webctrl tag='INPUT' type='button' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【台紙印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html title='経費支払照会画面' /><webctrl name='Exp001PrintEvdButton' tag='IMG' aaname='台紙印刷' />",
+          "Value": "<html title='経費支払照会画面' app='msedge.exe' /><webctrl name='Exp001PrintEvdButton' tag='IMG' aaname='台紙印刷' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "【台紙印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html idx='1' /><webctrl name='CancelButton' tag='IMG' aaname='戻る' />",
+          "Value": "<html idx='1' app='msedge.exe' /><webctrl name='CancelButton' tag='IMG' aaname='戻る' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'IMG '",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl aaname='承認待一覧' omit:href='http://td-wf-sv01:9080/dragls/images/title/listTo/syonin_tit.gif' tag='IMG' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl aaname='承認待一覧' omit:href='http://td-wf-sv01:9080/dragls/images/title/listTo/syonin_tit.gif' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:OnUiElementAppear",
+          "DisplayName": "経費支払画面の表示待ち",
+          "PropertyName": "Target.Selector",
+          "Original": "<html omit:htmlwindowname='dragls' title='承認待一覧' /><webctrl aaname='承認待一覧' href='*' tag='IMG' />",
+          "Value": "<html omit:htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl aaname='承認待一覧' href='*' tag='IMG' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "[▶次へ]の確認",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl parentname='PCCViewForm' tag='IMG' aaname='次へ' idx='1' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl parentname='PCCViewForm' tag='IMG' aaname='次へ' idx='1' />"
+        },
+        {
+          "Type": 0,
+          "ActivityType": "ui:Click",
+          "DisplayName": "[▶次へ]をクリック",
+          "PropertyName": "Target.Selector",
+          "Original": "<html htmlwindowname='dragls' title='承認待一覧' /><webctrl parentname='PCCViewForm' tag='IMG' aaname='次へ' idx='1' />",
+          "Value": "<html htmlwindowname='dragls' title='承認待一覧' app='msedge.exe' /><webctrl parentname='PCCViewForm' tag='IMG' aaname='次へ' idx='1' />"
+        }
+      ],
+      "Warnings": [
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click 'push button  閉じる'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer' /><ctrl idx='1' name='閉じる' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "ポップアップの表示確認",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='Web ページからのメッセージ' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click 'はい",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='Web ページからのメッセージ' /><wnd ctrlid='1' title='OK' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【閉じる】クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払受付一覧印刷画面 - Internet Explorer' /><ctrl idx='1' name='閉じる' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe 経費支払受付一覧印刷...'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払受付一覧印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "【一覧出力】にEnterキーを送る",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払受付一覧印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe 経費支払受付一覧印刷...'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "印刷ウィンドウが開いているかのチェック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' /><wnd ctrlid='1' title='印刷(&amp;P)' />"
+        },
+        {
+          "ActivityType": "ui:ImageFound",
+          "DisplayName": "Image Exists 'iexplore.exe 発注決裁承認'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:ImageFound",
+          "DisplayName": "Image Exists 'iexplore.exe 発注決裁承認'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:ImageFound",
+          "DisplayName": "Image Exists 'iexplore.exe 発注決裁承認'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe  印刷'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe  印刷'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "印刷ウィンドウが開いているかのチェック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' /><wnd ctrlid='1' title='印刷(&amp;P)' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【閉じる】",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' /><ctrl idx='1' name='閉じる' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Ctrl+Pで印刷画面表示",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?&amp;DTX_Act*' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Ctrl+Pで印刷画面表示",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?&amp;DTX_Act*' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Send Hotkey 'Static'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?&amp;DTX_Act*' /><wnd aaname='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?DTX_Acti*' cls='TabWindowClass' title='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?&amp;DTX_Act*' /><wnd cls='Static' title='Local\\EWH-7664-1 - Adobe Acrobat Reader DC (32-bit)' /><ctrl idx='1' role='document' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe  印刷'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe  印刷'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "印刷ウィンドウが開いているかのチェック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' /><wnd ctrlid='1' title='印刷(&amp;P)' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【閉じる】",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' /><ctrl idx='1' name='閉じる' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "画面が切り替わるまで.....",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='Web ページからのメッセージ' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click 'Button'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='Web ページからのメッセージ' /><wnd ctrlid='2' title='OK' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click 'push button  閉じる'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='*Internet Explorer' /><ctrl idx='1' name='閉じる' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click 'push button  閉じる'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='iSeriesSiteワークフロー - Internet Explorer' /><ctrl idx='1' name='閉じる' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:ImageFound",
+          "DisplayName": "Image Exists 'iexplore.exe 発注決裁承認'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:ImageFound",
+          "DisplayName": "Image Exists 'iexplore.exe 発注決裁承認'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:ImageFound",
+          "DisplayName": "Image Exists 'iexplore.exe 発注決裁承認'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "[ファイルを開く]クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='経費支払照会画面 - Internet Explorer' /><wnd aaname='通知' cls='DirectUIHWND' /><ctrl automationid='IENotificationBar' /><ctrl name='ファイルを開く' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe  印刷'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe  印刷'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "印刷ウィンドウが開いているかのチェック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' /><wnd ctrlid='1' title='印刷(&amp;P)' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【閉じる】",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' /><ctrl idx='1' name='閉じる' role='push button' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Ctrl+Pで印刷画面表示",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?&amp;DTX_Act*' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Ctrl+Pで印刷画面表示",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?&amp;DTX_Act*' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Send Hotkey 'Static'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?&amp;DTX_Act*' /><wnd aaname='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?DTX_Acti*' cls='TabWindowClass' title='http://td-wf-sv01:9080/dragls/servlet/PublicTransaction?&amp;DTX_Act*' /><wnd cls='Static' title='Local\\EWH-7664-1 - Adobe Acrobat Reader DC (32-bit)' /><ctrl idx='1' role='document' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe  印刷'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists 'iexplore.exe  印刷'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' />"
+        },
+        {
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "印刷ウィンドウが開いているかのチェック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【印刷】クリック",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='#32770' title='印刷' /><wnd ctrlid='1' title='印刷(&amp;P)' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "【閉じる】",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='iexplore.exe' cls='IEFrame' title='証憑台紙印刷画面 - Internet Explorer' /><ctrl idx='1' name='閉じる' role='push button' />"
+        }
+      ]
+    }
+  ]
+}

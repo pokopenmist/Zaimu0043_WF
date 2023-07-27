@@ -1,0 +1,1 @@
+rundll32.exe printui.dll,PrintUIEntry /y /n "Canon Generic Plus LIPS4 (リダイレクト 3)"
